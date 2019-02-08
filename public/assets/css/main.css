@@ -1,0 +1,186 @@
+nav{
+    background-color: rgba(0,0,0,0.50) !important;
+    height: 80px ;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.10) !important;
+}
+nav ul a{
+    color: #ffffff !important;
+    font-size: 20px !important;
+    font-weight: 300;
+}
+.nav_img{
+    width: 52%;
+}
+.parallax-container{
+    height: 100vh !important;
+    margin-top: -64px;
+}
+nav .brand-logo{
+    font-weight: 900;
+}
+.para_txt{
+    position: absolute;
+    top: 30%;
+    width: 50%;
+}
+.para_h1{
+    font-size: 26px;
+    line-height: 34px;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    padding:0 !important;
+}
+.para_p{
+    line-height: 1.55;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+.two{
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.p_first{
+    padding-top: 120px;
+}
+.p_last{
+    padding-bottom: 60px;
+}
+p{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+.btn{
+    background-color: #cf0009 !important;
+    color: white;
+    width: 50%;
+    font-family: 'Roboto',sans-serif !important;
+    height: 60px !important;
+    font-size: 16px !important;
+    padding-top: 15px !important;
+    border-radius:3px !important;
+    
+}
+.btn_consult{
+    padding-top: 20px !important;
+    width: 350px !important;
+} 
+.p_last_1{
+    color: white;
+}
+.bonus{
+    padding-top: 40px;
+}
+.para_two{
+    height: 300px !important;
+}
+.para_three{
+    height: 150px !important;
+}
+#para_two{
+    padding-top: 100px;
+}
+#para_three{
+    padding-top: 60px;
+}
+h1{
+    font-weight: 900 !important;
+    color: black;
+    padding-top: 60px;
+}
+.zayavka{
+    text-align: justify;
+}
+.pricing-best .card-header{
+    color: #fff;
+    background-color: black !important;
+}
+.pricing-best{
+        border: 2px solid black !important;
+}
+.news_p{
+    color: white;
+    padding: 40px;
+    font-size: 16px;
+}
+.modal-content{
+        background-color: #fafafa !important;
+        border: 0px solid rgba(0,0,0,0.2) !important;
+}
+.mews_5{
+    font-size: 36px;
+    text-align: center;
+}
+.sr-only_1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.p-t-md{
+    padding-top: 40px;
+}
+.img-resposive{
+    height: 50px;
+}
+.icon-pen{
+    background-image: url(../img/rules1600.png);
+}
+@media screen and (max-width:992px){
+   nav .nav-wrapper{
+    text-align: center;
+} 
+.para_two{
+    height: auto !important;
+}
+.para_three{
+    height: auto !important;
+}
+.para_txt {
+    position: absolute;
+    top: 15%;
+    width: 70%;
+}
+.para_h1 {
+    font-size: 20px;
+    line-height: 34px;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 30px !important;
+}
+p {
+    font-size: 14px;
+    line-height: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+.btn {
+    background-color: #cf0009 !important;
+    color: white;
+    width: 100%;
+    font-family: 'Roboto',sans-serif !important;
+    height: 60px !important;
+    font-size: 16px !important;
+    padding-top: 15px !important;
+    border-radius: 3px !important;
+}
+h1 {
+    font-size: 30px;
+    line-height: 110%;
+    margin: 2.8rem 0 1.68rem 0;
+    text-align: center;
+}
+}
