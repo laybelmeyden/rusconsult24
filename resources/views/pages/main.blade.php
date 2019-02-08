@@ -20,9 +20,18 @@
       <p>Заполни форму и получи консультацию !</p>
       <form action="/footerform" method="POST">
       {{ csrf_field() }}
-          <input placeholder="Введите Ваше имя" type="text" name="name_f" >
-          <input placeholder="Введите Ваш телефон" type="text" id="phone1" name="phone">
-          <input placeholder="Введите Вашу почту" type="email" name="email">
+      <div class="input-field col s12">
+          <input placeholder="Введите Ваше имя" type="text" name="name_f" class="validate" required>
+          <label for="first_name">Ваше имя</label>
+      </div>
+      <div class="input-field col s12">
+          <input placeholder="Введите Ваш телефон" type="text" id="phone1" name="phone" class="validate" required>
+          <label for="first_name">Телефон для связи</label>
+      </div>
+      <div class="input-field col s12">
+          <input placeholder="Введите Вашу почту" type="email" name="email" class="validate" required>
+          <label for="first_name">Ваш email</label>
+      </div>
       <div class="col s12 center"><button type="submit" class="waves-effect waves-light btn modal-trigger btn_consult">получить</button></div>
     </div>
     </form>
