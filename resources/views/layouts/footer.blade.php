@@ -1,4 +1,4 @@
-  <footer class="section-footer bg-inverse" role="contentinfo">
+  <footer class="section-footer bg-inverse" role="contentinfo" id="cont">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-5">
@@ -8,20 +8,16 @@
               <!--</div>-->
               <small class="media-body media-bottom">
                 &copy; Ruconcalting24 <br>
-                Компания Ruconcalting24 входит в структуру Агентства инновационного развития (www.rusinnovations.com)
+                Компания Ruconcalting24 входит в структуру Агентства инновационного развития (<a href="http://rusinnovations.com/">www.rusinnovations.com</a>)
               </small>
             </div>
           </div>
-          <!--<div class="col-md-6 col-lg-7">-->
-          <!--  <ul class="nav nav-inline">-->
-          <!--    <li class="nav-item">-->
-          <!--      <a class="nav-link" href="./index-carousel.html"><small>NEW</small> Slides<span class="sr-only">(current)</span></a>-->
-          <!--    </li>-->
-          <!--    <li class="nav-item"><a class="nav-link" href="ui-elements.html">UI Kit</a></li>-->
-          <!--    <li class="nav-item"><a class="nav-link" href="https://github.com/tatygrassini/landio-html" target="_blank">GitHub</a></li>-->
-          <!--    <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>-->
-          <!--  </ul>-->
-          <!--</div>-->
+          <div class="col-md-6 col-lg-7 right-align">
+              <!--<div class="media-left">-->
+              <!--  <img src="assets/img/Logo.png"></img>-->
+              <!--</div>-->
+                E-mail: info@ruconsulting24.ru
+          </div>
         </div>
       </div>
     </footer>

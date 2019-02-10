@@ -79,6 +79,7 @@
 Имея многолетний успешный опыт работы в области разработки конкурсной документации и ведении отчетности, наши специалисты содействуют развитию бизнеса и приглашают к сотрудничеству команды, заинтересованные в участии в программах на получение государственного финансирования</p>
           </div>
         </div>
+        <div class="col s12 center"><a class="waves-effect waves-light btn modal-trigger btn_consult" href="#modal1">Получить консультацию</a></div>
       </div>
     </section>
 <section class="section-pricing bg-faded text-xs-center">
